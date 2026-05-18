@@ -4,7 +4,7 @@ import { Badge, Card, SectionTitle } from "../components/ui/sharedComponent";
 import { COLORS } from "../styles/colors";
 import { getAllResident } from "../features/resident/residentThunks";
 import { getAllStaff } from "../features/staff/staff.thunk";
-import { getEntryLogs } from "../features/logs/logs.thunk";
+import { getEntryLogs } from "../features/auth/logs.thunk";
 import { getActiveVisitors } from "../features/visitor/vis.thunk";
 import { getAllUtilityWorker } from "../features/utility_worker/utility.thunk";
 
