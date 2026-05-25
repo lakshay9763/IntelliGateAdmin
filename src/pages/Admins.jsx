@@ -125,7 +125,7 @@ export default function Admins() {
               </div>
 
               <div>
-                <label style={{ fontSize: 11, fontWeight: '800', color: '#888' }}>TEMPORARY PASSWORD</label>
+                <label style={{ fontSize: 11, fontWeight: '800', color: '#888' }}>PASSWORD</label>
                 <input 
                   type="password" required value={formData.password} minLength={6} onChange={(e) => setFormData({...formData, password: e.target.value})}
                   style={{ width: '100%', padding: '12px', borderRadius: '10px', border: '1px solid #E2E8F0', background: '#F8FAFC', fontSize: '14px', marginTop: '6px', boxSizing: 'border-box' }}
